@@ -1,0 +1,16 @@
+{
+  "name": "recipe-singlepage-website-github-repo",
+  "version": "1.0.0",
+  "description": "![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://github.com/Alexanderlucid/recipe-page",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
