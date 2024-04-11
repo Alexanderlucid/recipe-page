@@ -1,0 +1,74 @@
+/* utilities */
+.container{
+    width: 100%;
+    margin: 0px auto;
+}
+/* MARGINS */
+/* -- vertical margins */
+.my-2{
+    margin: 0.7rem 0;
+}
+/* TEXT SIZES */
+.lead{
+    font-size: 20px;
+}
+.md{
+    font-size: 2rem;
+}
+.lg{
+    font-size: 3rem;
+}
+/* Text Colors */
+.heading-color{
+    color: var(--nutmeg);
+}
+
+/* PADDING */
+.p-3{
+    padding: 2rem;
+}
+/* Lists */
+.list{
+    padding-left:30px;
+}
+li{
+    margin: 16px 0;
+}
+li::marker{
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+header li::marker{
+    color: var(--dark-raspberry);
+    font-weight: bold;
+}
+li:last-child{
+    margin: 0 0;
+}
+
+/* Borders */
+.bm{
+    border-bottom: 1px solid hsla(24, 5%, 18%,0.2);
+    padding-bottom: 2rem;
+}
+
+/* Table */
+table{
+    width: 100%;
+}
+tr{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid hsla(24, 5%, 18%,0.2);
+    padding: 1rem 0 1rem 2rem;
+}
+tr:last-child{
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+td{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
